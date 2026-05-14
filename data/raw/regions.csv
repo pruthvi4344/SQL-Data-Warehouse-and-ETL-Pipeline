@@ -1,0 +1,4 @@
+region_id,country,state,city,region
+R001,Canada,Ontario,Toronto,East
+R002,Canada,Quebec,Montreal,East
+R003,Canada,British Columbia,Vancouver,West
