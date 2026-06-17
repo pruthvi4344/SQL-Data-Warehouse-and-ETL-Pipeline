@@ -48,21 +48,21 @@ def extract_orders(raw_dir="data/raw"):
         Path(raw_dir) / "orders.csv"
     )
 
-
+# extract customer data
 def extract_customers(raw_dir="data/raw"):
 
     return pd.read_csv(
         Path(raw_dir) / "customers.csv"
     )
 
-
+# extract products data
 def extract_products(raw_dir="data/raw"):
 
     return pd.read_csv(
         Path(raw_dir) / "products.csv"
     )
 
-
+# extract regions data
 def extract_regions(raw_dir="data/raw"):
 
     return pd.read_csv(
