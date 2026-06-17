@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-
+# extracting the raw data
 def extract_raw_data(raw_dir: str = "data/raw") -> dict:
     """
     Extract all raw datasets from CSV files.
