@@ -90,7 +90,7 @@ def extract_payments(raw_dir="data/raw"):
         Path(raw_dir) / "payments.csv"
     )
 
-
+# extracr shipments data
 def extract_shipments(raw_dir="data/raw"):
 
     return pd.read_csv(
