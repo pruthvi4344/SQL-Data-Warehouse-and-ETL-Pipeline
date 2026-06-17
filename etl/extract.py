@@ -41,7 +41,7 @@ def extract_raw_data(raw_dir: str = "data/raw") -> dict:
 
     return datasets
 
-
+# extracting raw data
 def extract_orders(raw_dir="data/raw"):
 
     return pd.read_csv(
