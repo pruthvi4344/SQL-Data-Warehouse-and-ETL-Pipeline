@@ -69,14 +69,14 @@ def extract_regions(raw_dir="data/raw"):
         Path(raw_dir) / "regions.csv"
     )
 
-
+# extract supplier data
 def extract_suppliers(raw_dir="data/raw"):
 
     return pd.read_csv(
         Path(raw_dir) / "suppliers.csv"
     )
 
-
+# extract employees data
 def extract_employees(raw_dir="data/raw"):
 
     return pd.read_csv(
