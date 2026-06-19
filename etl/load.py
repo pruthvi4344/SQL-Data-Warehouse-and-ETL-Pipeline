@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from datetime import datetime
 from config.config import DATABASE_URL
 
-
+# making connection to database
 def connect_database():
 
     try:
