@@ -21,7 +21,7 @@ def connect_database():
 
         raise
 
-
+# loading single table
 def load_single_table(engine, table_name, dataframe):
 
     try:
