@@ -1,7 +1,5 @@
--------------------------------------------------
--- 1. Total Revenue by Year
--------------------------------------------------
 
+-- total revenue by year
 SELECT
     d.year,
     SUM(f.sales) AS total_revenue
