@@ -15,10 +15,8 @@ GROUP BY d.year
 ORDER BY d.year;
 
 
--------------------------------------------------
--- 2. Monthly Revenue
--------------------------------------------------
 
+-- this query is for monthly revenue
 SELECT
 
     d.year,
