@@ -86,11 +86,7 @@ ORDER BY total_spent DESC
 
 LIMIT 10;
 
-
--------------------------------------------------
--- 5. Sales by Region
--------------------------------------------------
-
+-- this query if for sales by regions
 SELECT
 
     r.region_name,
