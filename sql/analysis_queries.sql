@@ -44,10 +44,7 @@ ORDER BY
     d.month;
 
 
--------------------------------------------------
--- 3. Top 10 Products
--------------------------------------------------
-
+-- selecting top 10 products
 SELECT
 
     p.product_name,
